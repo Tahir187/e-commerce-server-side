@@ -15,7 +15,7 @@ app.use('/api/v1/auth', authRoutes);
 // rest API
 app.get("/", (req, res) =>{
     res.send({
-        message: "Welcome to ecommerce app",
+        message: "Welcome to e-commerce web appplication",
     });
 });
 
