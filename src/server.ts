@@ -13,7 +13,7 @@ app.use(express.json())
 app.use('/api/v1/auth', authRoutes);
 
 // rest API
-app.get("/", (req, res) =>{
+app.get("/", (req: any, res:any) =>{
     res.send({
         message: "Welcome to e-commerce web appplication",
     });
